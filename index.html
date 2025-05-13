@@ -2,31 +2,37 @@
 <html>
 <head>
     <title>abroba</title>
-    
-        <style>
-    	p { font-family: arial;
-        color: white;
-          }
-        
-       h1 { font-family: courier new;
-       	color: white;
-       		}
-       a { font-family: arial;
-       color: rgb(200,200,200);
-       text-decoration: none;
-       }
+    <style>
+        p { font-family: arial; color: white; }
+        h1 { font-family: courier new; color: white; }
+        a { font-family: arial; color: rgb(200,200,200); text-decoration: none; }
     </style>
-    
 </head>
 <body style="background-color: black;">
     <h1>aeiou AEIOU</h1>
 
     <p>aeiou AEIOU</p>
     <p>queijo: mussarela</p>
-    <p>...</p>
-    <p>mingau: de maizena?</p>
-    <p>arroz</p>
-    <p>doce</p>
-    <a href="https://sspx-x.github.io/queijo"> queijo</a>
+    <a href="https://sspx-x.github.io/queijo">queijo</a>
+
+    <div>
+        <input type="password" id="passwordInput" placeholder="Digite a senha" />
+        <button onclick="checkPassword()">Entrar</button>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const password = document.getElementById("passwordInput").value;
+            if (password === "LIBERTADOR") {
+                window.location.href = "libertador.html";
+            } else if (password === "CICLO") {
+                window.location.href = "ciclo.html";
+            } else if (password === "VÉU") {
+                window.location.href = "veu.html";
+            } else {
+                alert("Senha incorreta.");
+            }
+        }
+    </script>
 </body>
 </html>
