@@ -22,10 +22,26 @@
     <p>doce</p>
     <a href="https://sspx-x.github.io/queijo"> queijo</a>
 
-    <p><label for="pwd">senha:</label></p>
-    <input type="password" id="pwd" name="pwd">
-
-
+	<p><input type="password" id="batata" placeholder=" "></p>
+    <button onclick="checkPassword()">⠀⠀</button>
+    
+    <script>
+    	function checkPassword() {
+        	const input = document.getElementbyId("PasswordInput").value;
+            
+                switch(input) {
+                case "queijo":
+                    window.location.href = "queijo.html";
+                    break;
+                case "Y":
+                    window.location.href = "pageY.html";
+                    break;
+                default:
+                    alert("Nada Encontrado");
+    
+    </script>
+    
+    
     
 </body>
 </html>
