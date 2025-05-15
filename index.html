@@ -45,10 +45,6 @@
     <script>
     	function checkPassword() {
         	const input = document.getElementById("PasswordInput").value;
-            const normalizedInput = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-        
-        switch(normalizedInput) {
-                switch(input) {
                 case "zefiro":
                     window.location.href = "https://sspx-x.github.io/queijo";
                     break;
