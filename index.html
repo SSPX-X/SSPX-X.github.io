@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-p {color: white;}
+    <title>esnigma</title>
+    
+        <style>
+    	p { font-family: arial; color: white;}
+       h1 { font-family: courier new; color: white;
+	     font-size: 36px;
+            margin-bottom: 20px; 
+        
+	  }
+        label {font-family: arial; color: white;}
+
+  #PasswordInput {
+        width: 300px;     
+        height: 40px;  
+        font-size: 18px;  
+        display: block;   
+        
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
 
 
-  
-</style>
 
-  
-  
+	  
+    </style>
+    
 </head>
 <body style="background-color: black;">
-
-<p>bolas</p>
-
+    <h1></h1>
 
 
+	<p><input type="text" id="PasswordInput" placeholder=" "></p>
+    <button onclick="checkPassword()">enter</button>
+    
+    <script>
+    	function checkPassword() {
+        	const input = document.getElementById("PasswordInput").value;
+		switch(input) {
+                case "zefiro":
+                    window.location.href = "https://sspx-x.github.io/queijo";
+                    break;
+                case "Y":
+                    window.location.href = "pageY.html";
+                    break;
+                default:
+                    alert("errou mizeravi");
+		}
+	}
+    
+    </script>
   
+
+
+
+
+	
+    
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 </html>
