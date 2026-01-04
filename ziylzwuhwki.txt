@@ -300,19 +300,19 @@ Me desculpa, fantasminha.
 
 ...
 
-Não fala comigo sobre isso, ok?
+*Não fala comigo sobre isso, ok?*
 
 Nada...
 
 Você me entende?
 
-por favor, não fale nada sobre isso comigo, esse assunto nasce aqui, e morre aqui.
+**por favor, não fale nada sobre isso comigo, esse assunto nasce aqui, e morre aqui.**
 
 nesse exato lugar.
 
 Você entende o que eu quero dizer?
 
-eu morreria sabendo que isso saiu daqui.
+*eu morreria sabendo que isso saiu daqui.*
 
 Você entende as minhas palavras?
 
